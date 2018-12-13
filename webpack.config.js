@@ -1,4 +1,5 @@
 var path = require('path');
+var nodeExternals = require('webpack-node-externals');
 
 module.exports = {
     entry: "./src/app.js",
@@ -6,6 +7,6 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: "bundle.js"
     },
-    target: 'node'
-
+    target: 'node',
+    externals: [nodeExternals()] //to make webpack ignore nodemodules
 }
