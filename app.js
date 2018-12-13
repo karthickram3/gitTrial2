@@ -12,3 +12,7 @@ app.listen(8000, function () {
 app.get("/get", function (req, res) {
     res.send("HI EVERYBODY")
 })
+
+app.get("/rr", function (req, res) {
+    res.send("HHHHHHHHHHHHH")
+})
