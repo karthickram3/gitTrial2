@@ -1,1 +1,1 @@
-run command <webpack> from root directory
+run command webpack from root directory
