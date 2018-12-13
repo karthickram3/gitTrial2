@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 const bodyParser = require('body-parser')
-const api = require("./api")
+const api = require("../service/api")
 
 
 
