@@ -16,13 +16,10 @@ app.get("/get", function (req, res) {
 app.get("/rr", function (req, res) {
     res.send("HHHHHHHHHHHHH")
 })
-<<<<<<< HEAD
 app.get("/rr222", function (req, res) {
     res.send("dfaHHdfdHHHHHsfdgHHHHHH")
 })
-=======
 
 app.get("/llll", function (req, res) {
     res.send("HHasfsdfsdsdfHHHHHHHHHH")
 })
->>>>>>> c221d2768bf875d410cdadfa9d575989c6c345db
